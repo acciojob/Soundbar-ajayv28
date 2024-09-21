@@ -17,16 +17,16 @@ function playSound(sound) {
 
 
 buttons.forEach(button => {
-    button.addEventListener('click', () => {
-        const sound = button.getAttribute('data-sound');
+    button.addEventListener("click", () => {
+        const sound = button.getAttribute("data-sound");
         playSound(sound);
     });
 });
 
 
-stopButton.addEventListener('click', () => {
+stopButton.addEventListener("click", () => {
     if (currentAudio) {
         currentAudio.pause();
-        currentAudio.currentTime = 0; // Reset time to 0
+        currentAudio.currentTime = 0; 
     }
 });
