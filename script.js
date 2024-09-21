@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const buttons = document.querySelectorAll('.btn');
-const stopButton = document.querySelector('.stop');
+const buttons = document.querySelectorAll(".btn");
+const stopButton = document.querySelector(".stop");
 
 let currentAudio = null;
 
